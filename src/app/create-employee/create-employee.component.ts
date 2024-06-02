@@ -46,7 +46,7 @@ export class CreateEmployeeComponent implements OnInit {
     // } else {
     //   alert("Enter valid  FirstName");
     // }
-    if((this.employee.firstName.length >= 5) && (this.employee.lastName.length >= 8) && (this.employee.emailId.length >= 8)) {
+    if((this.employee.firstName.length >= 4) && (this.employee.lastName.length >= 5) && (this.employee.emailId.length >= 8)) {
       console.log("test1")
       this.saveEmployee();
 
