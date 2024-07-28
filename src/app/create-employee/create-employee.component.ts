@@ -68,7 +68,7 @@ export class CreateEmployeeComponent implements OnInit {
 
      firstName: new FormControl ("John",[Validators.required,Validators.minLength(4)]),
      lastName : new FormControl ("Enter LastName",[Validators.required,Validators.minLength(4)]),
-     mailId: new FormControl ("xyz@gmail.com",[Validators.required,Validators.minLength(8)])
+     mailId: new FormControl ("xyz@gmail.com",[Validators.required,Validators.minLength(7)])
   })
 
 }
